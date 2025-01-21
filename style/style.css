@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* nav style */
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5px solid rgba(254, 163, 1, 1);
+    
+
+}
+
+
+.nav-img{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2em;
+    gap: 0.5em;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2em;
+    
+}
+
+.nav-item-1{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: rgba(254, 163, 1, 1);
+    
+}
+.nav-item-2{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: rgba(1, 172, 253, 1);
+    
+}
+.nav-item-3{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: rgba(5, 212, 223, 1);
+}
+.nav-item-4{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: rgba(93, 88, 239, 1)
+}
+.btn{
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(254, 163, 1, 1);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+/* hero style */
+.hero{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.hero-h{
+    font-weight: 700;
+    font-size: 56px;
+}
+.Empoweringbr{
+    color: orange;
+}
+.towards{
+    color: rgba(1, 172, 253, 1);
+}
+.hero-p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.hero-enroll{
+    background-color: black;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 47px;
+    border-radius: 12px;
+    margin-top: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) and (min-width:992px) {
+    .nav-container {
+        
+    }
+}
