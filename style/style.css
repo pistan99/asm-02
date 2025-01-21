@@ -116,6 +116,17 @@ body{
     margin-top: 24px;
 
 }
+/* main heading style */
+
+.main-h{
+    display: flex;
+    justify-content: center;
+}
+.main-h-m{
+    font-weight: 700;
+    font-size: 46px;
+    margin: 60px auto;
+}
 
 
 /* footer style */
