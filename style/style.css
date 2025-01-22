@@ -128,6 +128,43 @@ body{
     margin: 60px auto;
 }
 
+/* card style */
+
+
+
+/* card-1-style */
+.card-1{
+    text-align: center;
+}
+.card-1-h{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-1-p{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 1);
+}
+.card-1-b{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(100, 200, 255, 1);
+
+}
+
+/* card-2-style */
+.card-2{
+    text-align: center;
+}
+
+/* card-2-style */
+.card-3{
+    text-align: center;
+}
+
 
 /* footer style */
 .footer{
